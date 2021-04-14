@@ -1,17 +1,24 @@
 <?php
-
+use yii\helpers\Url;
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Collège Adventiste des Côteaux';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+    <div class="jumbotron jumbo">
+        <h1>Collège Adventiste des Côteaux</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead"><strong>BUT:</strong> Développer chez chaque élève : </p>
+        <ol class="butlist well">
+            <li>Une acceptation de Dieu et de sa parole </li>
+        <li>Une vie saine, balancée et équilibrée </li>
+        <li>Une citoyenneté responsable</li>
+        <li>La capacité intellectuelle</li>
+        <li>Des options de caractère</li>
+</ol>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p><a class="btn btn-lg btn-success" href="<?php echo Url::toRoute('site/about'); ?>" >Qui sommes-nous</a></p>
     </div>
 
     <div class="body-content">

@@ -23,12 +23,20 @@ body {
 
 .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: grey;
 }
 
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
+}
+.butlist {
+   margin: 0;
+    padding: 12;
+    padding-left: 30%;
+    text-align: left;
+  list-style-position: inside; 
+  font-size: 20px;
 }
 
 .not-set {
@@ -113,3 +121,7 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+
+
+/*
